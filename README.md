@@ -16,5 +16,5 @@ Currently, two official plugins are available:
 
 2) Run "npm run dev"
 
-3) Run "npm run:android" but don't forgot to change id address with your local machine address
+3) Run "npm run:android" but don't forgot to change id address with your local machine address ( in package.json and in capacitor.config.json )
    "npx cap run android -l --external --public-host=[ip_address] --ssl --port 3000"
