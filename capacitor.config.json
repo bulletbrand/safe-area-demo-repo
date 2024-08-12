@@ -1,0 +1,21 @@
+{
+  "appId": "com.example.myawesomeapp",
+  "appName": "MyAwesomeApp",
+  "webDir": "dist",
+  "plugins": {
+    "SafeArea": {
+      "enabled": true,
+      "customColorsForSystemBars": true,
+      "statusBarColor": "#000000",
+      "statusBarContent": "light",
+      "navigationBarColor": "#000000",
+      "navigationBarContent": "light",
+      "offset": 0
+    }
+  },
+  "server": {
+    "androidScheme": "http",
+    "url": "http://192.168.31.219:3000",
+    "cleartext": true
+  }
+}
