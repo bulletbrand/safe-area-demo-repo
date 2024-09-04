@@ -1,6 +1,7 @@
 # React + Vite
 
 npx cap run android -l --external --public-host=192.168.31.219 --ssl --port 3000
+npx cap run ios -l --external --public-host=192.168.31.219 --ssl --port 3000
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
