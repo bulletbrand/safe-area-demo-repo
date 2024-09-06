@@ -11,6 +11,9 @@
       "navigationBarColor": "#000000",
       "navigationBarContent": "light",
       "offset": 0
+    },
+    "CapacitorCookies": {
+      "enabled": true
     }
   },
   "server": {
