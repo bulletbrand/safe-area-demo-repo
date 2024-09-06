@@ -1,20 +1,16 @@
-import '@capacitor-community/safe-area'
 import './App.css'
-import ReactPlayer from 'react-player/file'
+
 
 
 export function App() {
     return (
-        <div className={"root"}>
-            <h1>DEMO VIDEO PLAYER ISSUE</h1>
+        <div className={"root"} style={{background: 'white'}}>
+            <h1>DEMO VIDEO PLAYER ISSUE 3</h1>
 
-            <ReactPlayer
-                url="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
-                playing={false}
-                controls={true}
-                playsInline
-                loop
-            />
+            <video controls width="300">
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                        type="video/mp4"/>
+            </video>
         </div>
     );
 }
